@@ -1,4 +1,5 @@
-CXXFLAGS = -std=c++14
+CXXFLAGS = -std=c++14 --coverage -O0
+LDFLAGS = --coverage
 
 objects = library.o
 
