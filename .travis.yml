@@ -2,3 +2,4 @@ language: cpp
 script: make && make test
 os: linux
 dist: xenial
+after_success: bash <(curl -s https://codecov.io/bash)

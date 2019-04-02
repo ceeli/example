@@ -14,5 +14,6 @@ clean:
 
 .PHONY: test
 test: run_test.o $(objects)
-	$(CXX) -o run_test $(objects) run_test.o
+	$(CXX) -o run_test --coverage -O0 $(objects) run_test.o
 	./run_test
+	gcov run_test.cpp
