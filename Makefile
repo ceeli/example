@@ -1,4 +1,4 @@
-OBJS = hello_world.o
+CXXFLAGS = -std=c++14
 
 objects = library.o
 
