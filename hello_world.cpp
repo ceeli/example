@@ -3,5 +3,5 @@
 
 int main()
 {
-    std::cout << message() << std::endl;
+    std::cout << message(0) << std::endl;
 }

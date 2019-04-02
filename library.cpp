@@ -1,8 +1,10 @@
 #include "library.hpp"
 
-std::string message()
+std::string message(int sel)
 {
-    return "Hello, World!";
+    if (sel == 0)
+        return "Hello, World!";
+    return "No";
 }
 
 int my_random()

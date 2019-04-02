@@ -1,4 +1,4 @@
 #include <string>
 
-std::string message();
+std::string message(int sel);
 int my_random();

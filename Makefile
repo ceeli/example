@@ -17,4 +17,3 @@ clean:
 test: run_test.o $(objects)
 	$(CXX) -o run_test $(CXXFLAGS) $(objects) run_test.o
 	./run_test
-	gcov library.cpp

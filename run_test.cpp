@@ -4,5 +4,5 @@
 
 TEST_CASE("Hello World Program")
 {
-    REQUIRE(message() == "Hello, World!");
+    REQUIRE(message(1) == "No");
 }
